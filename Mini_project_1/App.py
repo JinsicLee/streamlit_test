@@ -30,6 +30,4 @@ st.write("Read Chart 1 >>")
 
 # plt.show()
 
-df = plt.figure(figsize=(8, 4))
-sns.histplot(data=df, x='발생일')
-st.pyplot(df)
+
