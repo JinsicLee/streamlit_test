@@ -24,8 +24,10 @@ for idx, col in enumerate(columns): #열의 위치
     for idx2 in range(4):
         # key가 겹치면 안 됨
         # col 안에 메소드를 통하여 element를 생성
-        col.text_input
-            (f"조 추첨 대상 {idx+1 + idx2 * 4}", key=f"{idx+1 + idx2 * 4}")
+        col.text_input(
+            f"조 추첨 대상 {idx+1 + idx2 * 4}", 
+            key=f"{idx+1 + idx2 * 4}"
+            )
 
 # 13명이 소속될 조 이름을 넣을 위치
 st.write(st.session_state)
