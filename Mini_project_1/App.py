@@ -29,4 +29,4 @@ st.write("Read Chart 1 >>")
 # # df.plot(x='발생일', y='모기지수(공원)')
 
 # plt.show()
-st.plotly_chart(df)
+st.plotly_chart()
