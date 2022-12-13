@@ -46,11 +46,11 @@ for idx, col in enumerate(columns2): #열의 위치
             )#4번 호출됨
 
 # 13명이 소속될 조 이름을 넣을 위치
-st.write(st.session_state)
+#st.write(st.session_state)
 #np.random.choice -> 추출해서 이름들, 목록
 # 1. st.session_state - n,g가 섞여있음
 ss = pd.Series(st.session_state)
-st.write(ss)
+#st.write(ss)
 ##ss2 = ss[ss != '']
 ss2 = ss[ss.ne("")]
 st.write(ss2)
