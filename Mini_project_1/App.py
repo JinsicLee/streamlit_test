@@ -17,6 +17,7 @@ st.write("Read Data List 1 >>")
 
 df = pd.read_csv('./Mini_project_1/mosquito.csv', encoding='cp949')
 df['발생일']=pd.to_datetime(df['모기지수 발생일'], infer_datetime_format=True)
+df = df[:2518]
 st.write(df)
 
 st.write("Read Chart 1 >>")
