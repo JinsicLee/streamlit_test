@@ -40,7 +40,7 @@ for idx, col in enumerate(columns): #열의 위치
 #columns -> columns2 , taps[0], -> taps[1]
 columns2 = tabs[1].columns(4)
 
-for idx, col in enumerate(columns4): #열의 위치
+for idx, col in enumerate(columns2): #열의 위치
     # 이중 For문
     # col.text_input(f"조 추첨 대상 {idx+1}", key=idx)
     for idx2 in range(4):
