@@ -20,7 +20,7 @@ st.write(df)
 # df.describe()
 # df.info()
 
- df.plot(x='발생일', y='모기지수(수변부)')
+# df.plot(x='발생일', y='모기지수(수변부)')
 # df.plot(x='발생일', y='모기지수(주거지)')
 # df.plot(x='발생일', y='모기지수(공원)')
 
