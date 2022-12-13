@@ -68,6 +68,7 @@ n_rd = np.random.choice(n_data, len(n_data), replace=False)
 st.write(n_rd)
 g_rd = np.random.choice(g_data, len(g_data), replace=False)
 st.write(g_rd)
+
 # 2. df 형태로 정리
 df = pd.DataFrame({
     '추첨 대상자 이름' : n_rd,
