@@ -18,3 +18,4 @@ df['발생일']=pd.to_datetime(df['모기지수 발생일'], infer_datetime_form
 st.write(df)
 
 df.describe()
+df.info()
