@@ -2,7 +2,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import seaborn as sns
+#import seaborn as sns
 
 # https://docs.streamlit.io/library/get-started/main-concepts
 # st.write() 마크다운
