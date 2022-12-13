@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import plotly.express as px
+#import plotly.express as px
 
 # 서울시의 모기 파악하기
 ## 모기예보제와 일자별 날씨 데이터를 통한 모기 발생 빈도 변화 파악
