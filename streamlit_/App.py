@@ -7,7 +7,7 @@ import pandas as pd
 # https://docs.streamlit.io/library/get-started/main-concepts
 # st.write() 마크다운
 
-st.title("조추첨 페이지")
+st.title(" <조> 추첨 페이지")
 st.header(" 여러분의 참여를 환영합니다 :) ")
 #st.image("./no_gs.jpg")
 
