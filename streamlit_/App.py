@@ -32,7 +32,7 @@ for idx, col in enumerate(columns): #열의 위치
             key=f"n{idx+1 + idx2 * 4}"
             )#4번 호출됨
 
-columns2 = tabs[0].columns(4)
+columns2 = tabs[1].columns(4)
 #2번째 조
 #columns -> columns2 , taps[0], -> taps[1]
 
