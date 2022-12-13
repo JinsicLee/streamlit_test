@@ -15,14 +15,14 @@ st.write("http://data.seoul.go.kr/dataList/OA-13285/S/1/datasetView.do#")
 # https://seong6496.tistory.com/269
 df = pd.read_csv('./Mini_project_1/mosquito.csv', encoding='cp949')
 df['발생일']=pd.to_datetime(df['모기지수 발생일'], infer_datetime_format=True)
-#st.write(df)
+st.write(df)
 
 # df.describe()
 # df.info()
-lp_1 = sns.lineplot(data=df, x='모기지수 발생일',y='모기지수(수변부)')
-# df.plot(x='발생일', y='모기지수(수변부)')
-# df.plot(x='발생일', y='모기지수(주거지)')
-# df.plot(x='발생일', y='모기지수(공원)')
+# lp_1 = sns.lineplot(data=df, x='모기지수 발생일',y='모기지수(수변부)')
+# # df.plot(x='발생일', y='모기지수(수변부)')
+# # df.plot(x='발생일', y='모기지수(주거지)')
+# # df.plot(x='발생일', y='모기지수(공원)')
 
-plt.show()
+# plt.show()
 
