@@ -77,7 +77,8 @@ if st.button('추첨시작^^'):
         '추첨 대상자 이름' : n_rd,
         '조이름' : g_rd,
     })
-    st.baloon
+    #st.baloon()
+    st.snow()
     st.write(df)
 
 
