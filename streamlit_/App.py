@@ -19,6 +19,8 @@ columns = tabs[0].columns(4) # 화면을 열로 나누어서 배치
 # col1, col2, col3, col4
 # enumerate : index, value
 
+#2번째 조
+#columns -> columns2 , taps[0], -> taps[1]
 
 for idx, col in enumerate(columns): #열의 위치
     # 이중 For문
@@ -27,7 +29,7 @@ for idx, col in enumerate(columns): #열의 위치
         # key가 겹치면 안 됨
         # col 안에 메소드를 통하여 element를 생성
         col.text_input(
-            f"조 추첨 대상 {idx+1 + idx2 * 4}", 
+            f"조 목록 {idx+1 + idx2 * 4}", 
             key=f"n{idx+1 + idx2 * 4}"
             )#4번 호출됨
 
