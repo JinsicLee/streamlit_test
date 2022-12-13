@@ -53,11 +53,15 @@ ss = pd.Series(st.session_state)
 #st.write(ss)
 ##ss2 = ss[ss != '']
 ss2 = ss[ss.ne("")]
-st.write(ss2)
+#st.write(ss2)
 # contains, find  * str관련 메소드 사용할 수 있게 함
 n_idx = ss2.index.str.contains('n')
 n_data = ss2[n_idx]
 st.write(n_data)
+
+g_idx = ss2.index.str.contains('g')
+g_data = ss2[g_idx]
+st.write(g_data)
 
 # 2. df 형태로 정리
 # <추첨 버튼>
