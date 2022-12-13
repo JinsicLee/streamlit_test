@@ -17,6 +17,8 @@ df = pd.read_csv('./Mini_project_1/mosquito.csv', encoding='cp949')
 df['발생일']=pd.to_datetime(df['모기지수 발생일'], infer_datetime_format=True)
 st.write(df)
 
+st.write("Write Chart 1 >>")
+
 # df.describe()
 # df.info()
 # lp_1 = sns.lineplot(data=df, x='모기지수 발생일',y='모기지수(수변부)')
