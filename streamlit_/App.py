@@ -34,11 +34,15 @@ for idx, col in enumerate(columns): #열의 위치
         col.text_input(
             f"조 목록 {idx+1 + idx2 * 4}", 
             key=f"n{idx+1 + idx2 * 4}"
-            )#4번 호출됨
+        )#4번 호출됨
 
 #2번째 조
 #columns -> columns2 , taps[0], -> taps[1]
-columns2 = tabs[1].columns(4)
+columns2 = tabs[1].columns(4) # 화면을 열로 나누어서 배치
+# 가로 4개의 열 -> columns = [col1, col2, col3, col4]
+# col1, col2, col3, col4
+# enumerate : index, value 묶음
+# columns -> columns2
 
 for idx, col in enumerate(columns2): #열의 위치
     # 이중 For문
@@ -61,8 +65,10 @@ if st.button('추첨시작^^ㅋ'):
     # 1. st.session_state - n,g가 섞여있음
     ss = pd.Series(st.session_state)
     #st.write(ss)
+
     ##ss2 = ss[ss != '']
     ss2 = ss[ss.ne("")]
+
     #st.write(ss2)
     # contains, find  * str관련 메소드 사용할 수 있게 함
     n_idx = ss2.index.str.contains('n')
