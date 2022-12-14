@@ -23,21 +23,7 @@ option = st.selectbox(
 
 st.write('You selected:', option)
 
-placeholder = st.empty()
 
-# Replace the placeholder with some text:
-placeholder.text("Hello")
-
-# Replace the text with a chart:
-placeholder.line_chart({"data": [1, 5, 2, 6]})
-
-# Replace the chart with several elements:
-with placeholder.container():
-    st.write("This is one element")
-    st.write("This is another")
-
-# Clear all those elements:
-placeholder.empty()
 
 #st.image('https://news.seoul.go.kr/welfare/files/2020/02/62cfc9f3f36041.41905113-1086x1536.jpg')
 
