@@ -45,4 +45,4 @@ st.write(df)
 # sns.lineplot(data=df, x="발생일", y="모기지수(공원)")
 
 with st.sidebar:
-    st.[element_name]
+    st.[Class1]
