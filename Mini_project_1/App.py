@@ -24,7 +24,8 @@ st.write(df)
 
 st.write("Read Chart 1 >>")
 
-plt.df[:2517]#plot([1, 2, 3, 4], [2, 3, 5, 10])
+plt.df[:2517]
+
 plt.xlabel('발생일', loc='right')
 plt.ylabel('모기지수(수변부)', loc='top')
 plt.show()
