@@ -12,6 +12,7 @@ for percent_complete in range(100):
     time.sleep(10)
     my_bar.progress(percent_complete + 1)
 
+
 # #import plotly.express as px
 
 # # 서울시의 모기 파악하기
