@@ -23,6 +23,8 @@ option = st.selectbox(
 
 st.write('You selected:', option)
 
+st.image(https://news.seoul.go.kr/welfare/files/2020/02/62cfc9f3f36041.41905113-1086x1536.jpg)
+
 
 # options = st.multiselect(
 #     'What are your favorite colors',
