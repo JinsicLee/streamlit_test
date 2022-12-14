@@ -15,7 +15,7 @@ for percent_complete in range(100):
 
 st.error('지금 제작 중 입니다', icon="🚨")
 
-st.button('Button')
+st.button('Retry')
 
 #st.snow()
 
