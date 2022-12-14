@@ -14,11 +14,11 @@ for percent_complete in range(100):
 
 st.error('지금 제작 중 입니다', icon="🚨")
 
-    if st.button('Button'):
-        st.write('조금만 기다려주세요')
-        st.snow()
-    else:
-        st.write('Wait times')
+if st.button('Button'):
+    st.write('조금만 기다려주세요')
+    st.snow()
+else:
+    st.write('Wait times')
 
 #st.snow()
 
