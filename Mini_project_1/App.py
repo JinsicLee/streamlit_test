@@ -9,10 +9,10 @@ import time
 st.write("Loading ....")
 my_bar = st.progress(0)
 for percent_complete in range(100):
-    time.sleep(10)
+    time.sleep(1)
     my_bar.progress(percent_complete + 1)
 
-
+st.error('지금 제작 중 입니다 ', icon="🚨")
 # #import plotly.express as px
 
 # # 서울시의 모기 파악하기
