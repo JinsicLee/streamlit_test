@@ -23,7 +23,7 @@ df['발생일']=pd.to_datetime(df['모기지수 발생일'], infer_datetime_form
 df = df[:2517]
 st.write(df)
 
-st.write("Read Chart 1 >>")
+st.write("Loading .... >>")
 
 # df.describe()
 # df.info()
