@@ -17,6 +17,13 @@ st.error('지금 제작 중 입니다', icon="🚨")
 
 st.button('Re-Load')
 
+option = st.selectbox(
+    'How would you like to be selected?',
+    ('mosquito', 'weather'))
+
+st.write('You selected:', option)
+
+
 # options = st.multiselect(
 #     'What are your favorite colors',
 #     ['Green', 'Yellow', 'Red', 'Blue'],
