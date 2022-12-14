@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import plotly.express as px
+
 #import plotly.express as px
 
 # 서울시의 모기 파악하기
@@ -22,6 +24,12 @@ st.write(df)
 
 st.write("Read Chart 1 >>")
 
+plt.df[:2517]#plot([1, 2, 3, 4], [2, 3, 5, 10])
+plt.xlabel('발생일', loc='right')
+plt.ylabel('모기지수(수변부)', loc='top')
+plt.show()
+
+
 # df.describe()
 # df.info()
 # lp_1 = sns.lineplot(data=df, x='모기지수 발생일',y='모기지수(수변부)')
@@ -30,7 +38,7 @@ st.write("Read Chart 1 >>")
 # # df.plot(x='발생일', y='모기지수(공원)')
 # plt.show()
 
-sns.lineplot(data=df, x="발생일", y="모기지수(수변부)")
-plt.show()
+# sns.lineplot(data=df, x="발생일", y="모기지수(수변부)")
+# plt.show()
 # sns.lineplot(data=df, x="발생일", y="모기지수(주거지)")
 # sns.lineplot(data=df, x="발생일", y="모기지수(공원)")
