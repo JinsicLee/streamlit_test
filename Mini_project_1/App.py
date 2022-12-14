@@ -11,7 +11,7 @@ my_bar = st.progress(0)
 for percent_complete in range(100):
     time.sleep(0.1)
     my_bar.progress(percent_complete + 1)
-    
+
 #import plotly.express as px
 
 # 서울시의 모기 파악하기
@@ -43,3 +43,6 @@ st.write(df)
 # plt.show()
 # sns.lineplot(data=df, x="발생일", y="모기지수(주거지)")
 # sns.lineplot(data=df, x="발생일", y="모기지수(공원)")
+
+with st.sidebar:
+    st.[element_name]
