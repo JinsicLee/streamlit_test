@@ -24,13 +24,6 @@ st.write(df)
 
 st.write("Read Chart 1 >>")
 
-plt.df[:2517]
-
-plt.xlabel('발생일', loc='right')
-plt.ylabel('모기지수(수변부)', loc='top')
-plt.show()
-
-
 # df.describe()
 # df.info()
 # lp_1 = sns.lineplot(data=df, x='모기지수 발생일',y='모기지수(수변부)')
