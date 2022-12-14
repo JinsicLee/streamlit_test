@@ -17,10 +17,10 @@ st.error('지금 제작 중 입니다', icon="🚨")
 
 st.button('Re-Load')
 
-options = st.multiselect(
-    'What are your favorite colors',
-    ['Green', 'Yellow', 'Red', 'Blue'],
-    ['Yellow', 'Red'])
+# options = st.multiselect(
+#     'What are your favorite colors',
+#     ['Green', 'Yellow', 'Red', 'Blue'],
+#     ['Yellow', 'Red'])
 
 #st.snow()
 
