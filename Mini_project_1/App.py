@@ -4,6 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
+import time
 
 #import plotly.express as px
 
@@ -36,3 +37,8 @@ st.write("Read Chart 1 >>")
 # plt.show()
 # sns.lineplot(data=df, x="발생일", y="모기지수(주거지)")
 # sns.lineplot(data=df, x="발생일", y="모기지수(공원)")
+
+my_bar = st.progress(0)
+for percent_complete in range(100):
+    time.sleep(0.1)
+    my_bar.progress(percent_complete + 1)
