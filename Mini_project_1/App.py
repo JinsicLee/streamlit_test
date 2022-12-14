@@ -43,6 +43,3 @@ st.write(df)
 # plt.show()
 # sns.lineplot(data=df, x="발생일", y="모기지수(주거지)")
 # sns.lineplot(data=df, x="발생일", y="모기지수(공원)")
-
-with st.sidebar:
-    st.[df]
