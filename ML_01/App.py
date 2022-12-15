@@ -6,8 +6,9 @@ df = pd.read_csv('https://raw.githubusercontent.com/bigdata-young/ai_26th/main/d
 st.write(df)
 
 import joblib
-model = joblib.load('./ML_01/App.py')
-#model_info = pd.Series(model.coef_, index = df.drop['expenses'].columns)
-st.write(model.coef_)
-#pd.Series(model.coef_, index = X.columns)
+import os
 
+model_path = f"{os.path.dirname(os.path.abspath(__file__))}/model.pkl"
+model = joblib.load(model_path)
+st.write("## 선형 회귀 모델")
+st.write(pd.Series(model.coef_, index=["age", "bmi", "children", "smoker", "sex_male", "region_northwest", "region_northeast", "region_southwest"]))

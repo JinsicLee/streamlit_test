@@ -2,3 +2,4 @@ streamlit
 pandas
 mlxtend
 joblib
+os
