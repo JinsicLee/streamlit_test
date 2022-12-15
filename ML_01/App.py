@@ -69,3 +69,6 @@ st.write(st.session_state['region'])
 
 if st.button('예측') :
     st.snow()
+    # 예측
+    # model.predict(X_test) > 전처리한 데이터 형태로 들어간 행렬, df,
+    # df X > 이중 리스트[]
