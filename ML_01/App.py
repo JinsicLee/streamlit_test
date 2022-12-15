@@ -6,7 +6,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/bigdata-young/ai_26th/main/d
 st.write(df)
 
 import joblib
-model = joblib.load('JinsicLee/streamlit_test/ML_01/App.py')
+model = joblib.load('./ML_01/App.py')
 model_info = pd.Series(model.coef_, index = df.drop['expenses'].columns)
 st.write(model_info)
 pd.Series(model.coef_, index = X.columns)
