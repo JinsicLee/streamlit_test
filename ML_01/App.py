@@ -9,3 +9,4 @@ import joblib
 model = joblib.load('./ml_model/app.py')
 model_info = pd.Series(model.coef_, index = df.drop['expenses'].columns)
 st.write(model_info)
+pd.Series(model.coef_, index = X.columns)
