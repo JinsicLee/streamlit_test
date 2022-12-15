@@ -31,3 +31,29 @@ st.radio(
     key='sex'
 )
 st.write(st.session_state['sex'])
+
+# age : 나이
+st.number_input(
+    label="나이",
+    step=1,
+    value=30,
+    key='age'
+)
+# st.session_state['age']
+# st.write(st.session_state['age'])
+# sex : 성별
+st.radio(
+    label='성별',
+    options=["남성", "여성"],
+    index=0, # 기본 선택
+    key='sex'
+)
+# st.write(st.session_state['sex'])
+# bmi : 실수형
+st.number_input(
+    label="BMI",
+    step=0.1, # 실수형으로 받을 수 있게
+    value=25.0,
+    key='bmi'
+)
+st.write(st.session_state['bmi'])
